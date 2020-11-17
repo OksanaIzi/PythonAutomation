@@ -1,4 +1,3 @@
-from selenium.webdriver.common.by import By
 from selenium.common.exceptions import NoSuchElementException
 
 class BasePage():
@@ -17,6 +16,7 @@ class BasePage():
         except (NoSuchElementException):
             return False
         return True
+
 
 
 
